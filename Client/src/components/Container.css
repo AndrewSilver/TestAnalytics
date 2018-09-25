@@ -1,0 +1,73 @@
+
+.flex-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around; 
+  }
+  
+  .first {
+    display: flex;
+    background: rgba(209, 195, 195, 0.200);
+    height: auto;    
+    width: 2600px;
+    white-space:nowrap;
+    flex-flow: row wrap;    
+    flex-wrap: wrap;    
+    align-content: flex-start;    
+    overflow: hidden;
+  }
+  .child {
+    vertical-align: top;
+    width: 100px;
+    height:150px;
+    background: red;
+    margin-left:3px;
+    margin-top:3px;
+}
+  
+  .second {
+    background: rgba(0, 128, 0, 0.144);
+    width: auto;
+    height: auto;  
+    display: flex;
+    flex-flow: row nowrap;
+    flex-wrap: wrap;    
+  }
+
+  .one-button-container {
+    display: flex;
+    background: rgba(0, 128, 0, 0.144);
+    width: 50%;
+    height: 50%;    
+  }
+  .container-for-button{
+    display: -webkit-flex; 
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    background: rgba(0, 128, 0, 0.144);
+    width: auto;
+    height: 22%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    flex-wrap: wrap;
+  }
+  .container-for-info{
+    display: flex;
+    background: rgba(0, 128, 0, 0.144);
+    width: 100%;
+    height: 58%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .container-for-name{
+    display: flex;
+    background: rgba(0, 128, 0, 0.144);
+    width: auto;
+    height: 6%;
+    margin-left: 1%;
+    margin-right: 1%;  
+  }

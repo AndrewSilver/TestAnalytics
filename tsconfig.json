@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es6",                         
+    "module": "commonjs",                     
+    "jsx": "react",                     
+    "sourceMap": true,                     
+    //"outFile": "bundle.js",                       
+    "outDir": "./Client/dist/",
+    "removeComments": true,  
+    "strict": true,                         
+    "noImplicitAny": true,
+  },
+  "include": [
+    "./Client/src/**/*"
+  ]
+}
